@@ -1,0 +1,95 @@
+<!doctype>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ShopMate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="__container">
+        <header>
+            <div id="__banner">
+                <h1 class="title">ShopMate</h1>
+                <p>Your Personal Shopping List App</p>
+                <form id="search__items">
+                    <input type="text" placeholder="Search items...">
+                </form>
+            </div>
+        </header>
+        <div id="shopping__list">
+            <h2 class="title">Items to buy:</h2>
+            <ul>
+                <!-- insert content -->
+            </ul>
+        </div>
+        <form id="add__item">
+            <div id="check__boxes">
+                <div class="checkbox">
+                    <span>Hide Items</span>
+                    <input type="checkbox" id="hide">
+                </div>
+                <div class="checkbox">
+                    <span>Sort Items</span>
+                    <input type="checkbox" id="sort">
+                </div>
+            </div>
+            <div class="input__wrapper">
+                <input type="text" placeholder="Add an item...">
+                <button>Add</button>
+            </div>
+        </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panels">
+                <div class="panel active" id="about">
+                    <h3>ShopMate</h3>
+                    <p>A mini web app that helps you plan and organise your shopping items. You can search for specific
+                        items, hide and sort the items in althabetical order as well as add and remove items. This mini
+                        web app was built using javascript with no frameworks or libraries.</p>
+                </div>
+                <div class="panel" id="contact">
+                    <p><img src="./images/person.svg" alt="a person icon" />Simon Sutherland</p>
+                    <p><img src="./images/phone.svg" alt="a phone icon" />07414693245</p>
+                    <p><img src="./images/email.svg" alt="an email icon" />dev010_1@gmail.com</p>
+                    <p><img src="./images/location.svg" alt="a place icon" />New Southgate, Middlesex, London</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Important devnote*
+Use ids on ONLY parent elements and classes on ONLY child elements.
+That way it will be easier to manipule with css because every thing in the DOM is based on parent and child structure relations. -->
