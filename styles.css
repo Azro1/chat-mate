@@ -121,7 +121,6 @@ body {
 }
 
 #shopping__list li:hover {
-  color: #FF1493;
   animation-name: wiggle;
   animation-duration: 0.4s;
 }
@@ -162,7 +161,7 @@ body {
 }
 
 .delete:hover {
-  filter: invert(25%) sepia(98%) saturate(5239%) hue-rotate(317deg) brightness(103%) contrast(101%);
+  filter: invert(16%) sepia(98%) saturate(7310%) hue-rotate(2deg) brightness(112%) contrast(115%);
 }
 
 /* bottom form input styles */
@@ -203,7 +202,7 @@ body {
 #add__item button {
   border: var(--onePx) solid #ddd;
   border-left: none;
-  background: #FF1493;
+  background: #000;
   line-height: 0.2;
   font-size: var(--sixteenPx);
   border-radius: 0% var(--fourPx) var(--fourPx) 0%;
@@ -281,7 +280,7 @@ body {
   display: inline-block;
   padding: var(--sixPx) var(--sixteenPx) var(--tenPx);
   font-family: 'Darumadrop One', cursive;
-  background: #FF1493;
+  background: #000;
   cursor: pointer;
   border-radius: var(--fourPx);
   color: #fff;
@@ -366,7 +365,7 @@ body {
   }
 
   .delete {
-    filter: invert(25%) sepia(98%) saturate(5239%) hue-rotate(317deg) brightness(103%) contrast(101%); 
+    filter: invert(16%) sepia(98%) saturate(7310%) hue-rotate(2deg) brightness(112%) contrast(115%);
   }
 
   #add__item .input__wrapper {
