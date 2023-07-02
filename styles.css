@@ -371,7 +371,7 @@ body {
   }
 
   .delete {
-    filter: invert(16%) sepia(98%) saturate(7310%) hue-rotate(2deg) brightness(112%) contrast(115%);
+    filter: invert(0%) sepia(90%) saturate(7461%) hue-rotate(59deg) brightness(99%) contrast(108%);
   }
 
   #add__item .input__wrapper {
