@@ -45,6 +45,7 @@ h2 {
 
 h3 {
   padding: 0 0 var(--tenPx);
+  color: #F4A460;
 }
 
 
@@ -64,7 +65,7 @@ body {
   max-width: var(--SixHundredFortyPx);
   margin: var(--twentyPx);
   border: var(--onePx) solid #ddd;
-  border-radius: var(--tenPx);
+  border-radius: var(--fivePx);
   background: #fff;
 }
 
@@ -78,6 +79,8 @@ body {
   text-align: center;
   margin: var(--tenPx) 0;
   font-family: 'Darumadrop One', cursive;
+  color: #F4A460;
+
 }
 
 #__banner input {
@@ -90,10 +93,11 @@ body {
   border: var(--onePx) solid #ddd;
   border-radius: var(--fourPx);
   font-size: var(--sixteenPx);
+
 }
 
 #__banner input::placeholder {
-  opacity: 0.5;
+  opacity: 0.8;
   color: #68747D;
   font-size: var(--sixteenPx);
 }
@@ -190,7 +194,7 @@ body {
 }
 
 #add__item input::placeholder {
-  opacity: 0.5;
+  opacity: 0.8;
   color: #68747D;
   font-size: var(--sixteenPx);
 }
@@ -236,6 +240,8 @@ body {
 #check__boxes .checkbox span {
   margin-left: var(--threePx);
   line-height: 0.6;
+  color: #F4A460;
+
 }
 
 #check__boxes::after {
