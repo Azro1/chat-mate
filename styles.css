@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
   --onePx: 0.063rem;
   --twoPx: 0.125rem;
@@ -22,65 +24,55 @@
   --SixHundredFortyPx: 40rem;
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Darumadrop One', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
-
 
 h2,
 h3 {
   font-weight: normal;
   color: #000;
-  font-family: 'Darumadrop One', cursive;
 }
 
 h2 {
   margin-left: var(--tenPx);
   margin-bottom: var(--twentyPx);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #272532;
 }
 
-h3 {
+/* h3 {
   padding: 0 0 var(--tenPx);
-  color: #F4A460;
-}
-
+  color: #272532;
+} */
 
 body {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  background: #151515;
+  background: #272532;
 }
-
-
-
 
 #__container {
   max-width: var(--SixHundredFortyPx);
-  margin: var(--twentyPx);
-  border: var(--onePx) solid #ddd;
-  border-radius: var(--fivePx);
-  background: #fff;
+  background: #F8F5F4;
+  margin: auto;
+  width: 100%;
 }
 
 #__banner h1 {
   text-align: center;
+  font-weight: 700;
   margin: var(--tenPx) 0;
-  font-family: 'Darumadrop One', cursive;
+  color: #272532;
 }
 
 #__banner p {
   text-align: center;
   margin: var(--tenPx) 0;
-  font-family: 'Darumadrop One', cursive;
-  color: #F4A460;
-
+  color: #967843;
 }
 
 #__banner input {
@@ -90,16 +82,14 @@ body {
   display: block;
   padding: var(--eightPx);
   padding-left: var(--sixteenPx);
-  border: var(--onePx) solid #ddd;
+  border: var(--onePx) solid #272532;
   border-radius: var(--fourPx);
   font-size: var(--sixteenPx);
-
 }
 
 #__banner input::placeholder {
-  opacity: 0.8;
   color: #68747D;
-  font-size: var(--sixteenPx);
+  font-size: var(--fourteenPx);
 }
 
 #__banner input:focus {
@@ -120,8 +110,9 @@ body {
   padding: var(--twentyPx);
   margin: var(--tenPx);
   border-radius: var(--fourPx);
-  border: var(--onePx) solid #ddd;
+  border: var(--onePx) solid #272532;
   transition: transform 1s;
+  color: #272532;
 }
 
 #shopping__list li:hover {
@@ -161,11 +152,11 @@ body {
   border-radius: var(--fourPx);
   cursor: pointer;
   position: relative;
-  bottom: var(--twoPx);
+  bottom: var(--fivePx);
 }
 
 .delete:hover {
-  filter: invert(16%) sepia(98%) saturate(7310%) hue-rotate(2deg) brightness(112%) contrast(115%);
+  filter: invert(16%) sepia(100%) saturate(7275%) hue-rotate(2deg) brightness(109%) contrast(114%);
 }
 
 /* bottom form input styles */
@@ -194,9 +185,8 @@ body {
 }
 
 #add__item input::placeholder {
-  opacity: 0.8;
   color: #68747D;
-  font-size: var(--sixteenPx);
+  font-size: var(--fourteenPx);
 }
 
 #add__item input:focus {
@@ -206,11 +196,10 @@ body {
 #add__item button {
   border: var(--onePx) solid #ddd;
   border-left: none;
-  background: #000;
+  background: #272532;
   line-height: 0.2;
   font-size: var(--sixteenPx);
   border-radius: 0% var(--fourPx) var(--fourPx) 0%;
-  font-family: 'Darumadrop One', cursive;
   display: inline-block;
   cursor: pointer;
   min-width: 20%;
@@ -240,8 +229,8 @@ body {
 #check__boxes .checkbox span {
   margin-left: var(--threePx);
   line-height: 0.6;
-  color: #F4A460;
-
+  color: #272532;
+  font-weight: 600;
 }
 
 #check__boxes::after {
@@ -262,7 +251,6 @@ body {
 #add__item label {
   line-height: var(--tenPx);
   margin-left: var(--threePx);
-  font-family: 'Darumadrop One', cursive;
 }
 
 
@@ -272,7 +260,7 @@ body {
 
 /* tabbed content styles */
 
-#tabbed-content {
+/* #tabbed-content {
   width: 100%;
   margin-top: var(--fortyPx);
 }
@@ -285,8 +273,7 @@ body {
 #tabbed-content li {
   display: inline-block;
   padding: var(--sixPx) var(--sixteenPx) var(--tenPx);
-  font-family: 'Darumadrop One', cursive;
-  background: #000;
+  background: #967843;
   cursor: pointer;
   border-radius: var(--fourPx);
   color: #fff;
@@ -324,7 +311,6 @@ body {
 #tabbed-content #about p {
   line-height: 1.4;
   font-size: var(--fourteenPx);
-  font-family: 'Spectral', serif;
   display: inline-block;
 }
 
@@ -344,9 +330,8 @@ body {
   padding: var(--fivePx);
   margin-right: var(--fivePx);
   font-size: var(--fourteenPx);
-  font-family: 'Spectral', serif;
   display: inline-block;
-}
+} */
 
 
 
@@ -358,25 +343,25 @@ body {
 
 /* media queries */
 @media only screen and (max-width: 480px) {
-  #__banner input {
+   /* #__banner input {
     width: 70%;
-  }
+  } */
 
-  #shopping__list li {
+  /* #shopping__list li {
     padding: var(--tenPx);
-  }
+  }  */
 
   .delete:hover {
     filter: none;
   }
 
-  .delete {
-    filter: invert(0%) sepia(90%) saturate(7461%) hue-rotate(59deg) brightness(99%) contrast(108%);
-  }
+  /* .delete {
+    filter: invert(64%) sepia(7%) saturate(642%) hue-rotate(316deg) brightness(93%) contrast(93%);
+  } */
 
-  #add__item .input__wrapper {
+  /* #add__item .input__wrapper {
     margin: var(--fortyPx) 0;
-  }
+  } */
 
 }
 

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // add content
       deleteBtn.setAttribute('src', './images/trash.svg');
-      (productItem.style.fontFamily = 'Darumadrop One'), 'cursive';
+      (productItem.style.fontFamily = 'Roboto'), 'san-serif';
       productItem.textContent = product;
 
       // add classes
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // add content
       deleteBtn.setAttribute('src', './images/trash.svg');
-      (productItem.style.fontFamily = 'Darumadrop One'), 'cursive';
+      // (productItem.style.color = '#fff');
       productItem.textContent = item;
 
       // add classes
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       // add content
       deleteBtn.setAttribute('src', './images/trash.svg');
-      (productItem.style.fontFamily = 'Darumadrop One'), 'cursive';
+      // (productItem.style.fontFamily = 'Darumadrop One'), 'cursive';
       productItem.textContent = value;
 
       // add classes
@@ -181,20 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // tabbed content
-  const tabs = document.querySelector('.tabs');
-  const panels = document.querySelectorAll('.panel');
+  // const tabs = document.querySelector('.tabs');
+  // const panels = document.querySelectorAll('.panel');
 
-  tabs.addEventListener('click', function (e) {
-    if (e.target.tagName === 'LI') {
-      const targetPanel = document.querySelector(e.target.dataset.target);
+  // tabs.addEventListener('click', function (e) {
+  //   if (e.target.tagName === 'LI') {
+  //     const targetPanel = document.querySelector(e.target.dataset.target);
 
-      panels.forEach(function (panel) {
-        if (panel === targetPanel) {
-          panel.classList.add('active');
-        } else {
-          panel.classList.remove('active');
-        }
-      });
-    }
-  });
+  //     panels.forEach(function (panel) {
+  //       if (panel === targetPanel) {
+  //         panel.classList.add('active');
+  //       } else {
+  //         panel.classList.remove('active');
+  //       }
+  //     });
+  //   }
+  // });
 });
